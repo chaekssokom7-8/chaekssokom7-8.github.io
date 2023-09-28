@@ -77,11 +77,15 @@ h2 {
   background-image: url("img/lighting.svg");
 }
 
+
 .feature-accessories {
   padding-top: 65px;
   background-image: url("img/accessories.svg");
 }
-
+.feature-Q {
+  padding-top: 65px;
+  background-image: url("img/accessories.svg");
+}
 .advantages {
   width: 510px;
   margin: 0 auto 40px;
