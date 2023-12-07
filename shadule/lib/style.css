@@ -1,0 +1,122 @@
+* {
+	box-sizing: border-box;
+}
+
+body { float: left;
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 1rem;
+	background: whitesmoke;
+	margin: 0;
+	padding: 1rem;
+	display: grid;
+	place-items: center;
+	min-height: 100vh;
+}
+
+ol { float: left;
+	list-style-position: inside;
+	width: 300px;
+	max-width: 100%;
+	background: white;
+	box-shadow: 0.25rem 0.25rem 0.75rem rgb(0 0 0 / 0.15);
+	padding: 0;
+	margin: 0;
+	border-radius: 0.1rem;
+}
+.alg {
+	background-color: #356ec4;
+}
+.rus {
+	background-color: #fd54a3;
+}
+.eng {
+	background-color: #31149b;
+}
+.inf {
+	background-color: #2493dd;
+}
+.fisra {
+	background-color: #bac42e;
+}
+.razgv {
+	background-color: #ca1111;
+}
+.razgen {
+	background-color: #accc78;
+}
+.predangl {
+	background-color: #f51590;
+}
+.hist {
+	background-color: #e4b20d;
+}
+.geom {
+	background-color: #0f852c;
+}
+.teorver {
+	background-color: #38fd07;
+}
+.litra {
+	background-color: #3f1e32;
+}
+.mchk {
+	background-color: #ece918;
+}
+.kussia {
+	background-color: #21c3f5;
+}
+.phys {
+	background-color: #ec5c22;
+}
+.o {
+	background-color: #8649a1;
+}
+.bidlo {
+	background-color: #acacac;
+}
+.geo {
+	background-color: #66a7d3;
+}
+.chem {
+	background-color: #f52196;
+}
+.prog {
+	background-color: #3a3236;
+}
+.predinf {
+	background-color: #638330;
+}
+.obj {
+	background-color: #62e2dc;
+}
+li {
+	padding: 0 0 0 1rem;
+	border-bottom: 1px solid lightblue;
+}
+
+
+
+
+/*________________________________________________________________________*/
+::marker {
+	--image: '📩 ';
+	content: counter(list-item) ' ' var(--image);
+}
+
+li:nth-child(2)::marker {
+	--image: '🐈 ';
+}
+
+li:nth-child(3)::marker {
+	--image: '🗑 ';
+}
+
+li:nth-child(4)::marker {
+	--image: '🪴 ';
+}
+
+li:nth-child(5)::marker {
+	--image: '🔑 ';
+}
+/* Add your styles here */
+
